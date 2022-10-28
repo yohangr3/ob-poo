@@ -10,9 +10,10 @@ public class Main {
 
         vehiculo toyota = new vehiculo();
 
+        Motor motorGTI = new Motor("GTI" , 190,459,6);
         //Creamos un objeto utilizando el constructor con parametros
 
-        vehiculo ford = new vehiculo("ford","Mondeo" , 2.1,2010,false);
+        vehiculo ford = new vehiculo(motorGTI,"ford","Mondeo" , 2.1,2010,false);
         System.out.println(ford.fabricante);
         System.out.println(ford.year);
         System.out.println(ford.speed);
