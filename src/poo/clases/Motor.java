@@ -1,10 +1,10 @@
 package poo.clases;
 
 public class Motor {
-    String modelo;
-    int caballos;
-    int parNm;
-    int numCilindros;
+    protected String modelo;
+    protected int caballos;
+    protected int parNm;
+    protected int numCilindros;
 
     //Constructores
 

@@ -1,5 +1,8 @@
 package poo.clases;
 
+
+import poo.herencia.Motocicleta;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -19,6 +22,24 @@ public class Main {
         System.out.println(ford.speed);
         ford.acelerar(50); //utilizamos el método acelerar para aumentar veloidad a 50km/h
         System.out.println(ford.speed);
+
+        Motocicleta kawasakiNinja = new Motocicleta();
+        kawasakiNinja.fabricante = "Kawasaki";
+        System.out.println(kawasakiNinja.fabricante);
+
+
+
+        System.out.println("fin del programa");
+
+        //Polimorfismo
+
+        vehiculo Vehiculo;
+        Vehiculo = new Motocicleta();
+        Vehiculo.acelerar(100);
+        System.out.println(Vehiculo.speed);
+
+
+        //Clases abstractas , no se pueden instanciar
 
     }
 }
