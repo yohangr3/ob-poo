@@ -1,9 +1,9 @@
-package poo.interfaces;
+/*package poo.interfaces;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmpleadoCRUD {
+public class EmpleadoCRUDV1 {
 
     List<Empleado> empleados = new ArrayList<>();
     //guardar un empleado
@@ -11,8 +11,8 @@ public class EmpleadoCRUD {
 
         empleados.add(empleado);
     }
-
+    //Método para llamar todos los empleados
     public List<Empleado> findAll(){
         return empleados;
     }
-}
+}*/
